@@ -27,6 +27,7 @@ target 'twilio_2' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'react-native-twilio-video-webrtc', :path => '../node_modules/react-native-twilio-video-webrtc'
 
   target 'twilio_2Tests' do
     inherit! :search_paths
